@@ -1,0 +1,11 @@
+package Exe06_2;
+
+public class subal {
+
+	public static void main(String[] args) {
+		int a, b, c;
+		
+
+	}
+
+}

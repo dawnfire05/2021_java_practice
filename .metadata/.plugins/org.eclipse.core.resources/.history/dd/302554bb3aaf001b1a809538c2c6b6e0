@@ -1,0 +1,42 @@
+package Exe06_2;
+
+import java.util.Scanner;
+
+public class marummo {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int Size = scan.nextInt();
+		int a ;
+		int b ;
+		int c = Size/2;
+		
+		if(Size %2 ==1) {
+			for(a=1;a<=c+1;a++) {
+				for(b=1;b<=Size;b++) {
+					if(b==c+2-a)
+						System.out.print("*");
+					else if(b==c+a)
+						System.out.print("*");
+					else
+						System.out.print("");
+					if(b==Size)
+						System.out.println("");
+				}	
+			}
+			for(a=1;a<=c;a++) {
+				for(b=1;b<=Size;b++) {
+					if(b==1+a)
+						System.out.print("*");
+					else if(b==Size-a)
+						System.out.print("*");
+					else
+						System.out.print(" ");
+					if(b==Size)
+						System.out.println("");
+				}
+			}
+		}
+		else
+			System.out.print("홀수만 입력 가능합니다");
+	}
+}

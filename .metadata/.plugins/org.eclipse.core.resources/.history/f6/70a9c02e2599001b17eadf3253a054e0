@@ -1,0 +1,24 @@
+package Exe06;
+
+import java.util.Scanner;
+
+public class int_change {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		int age = 17
+		
+		String name = scan.next();
+		String address = scan.next();
+		int age = scan.nextInt();
+		double weight = scan.nextDouble();
+		
+		System.out.println(name + address + age + weight);
+		
+		scan.close();
+		
+		
+
+	}
+
+}

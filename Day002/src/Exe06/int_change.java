@@ -1,0 +1,31 @@
+package Exe06;
+
+import java.util.Scanner;
+
+public class int_change {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("이름: ");
+		String name = scan.next();
+		System.out.print("주소: ");
+		String address1 = scan.next();
+		int address2 = scan.nextInt();
+		int address3 = scan.nextInt();
+		System.out.print("나이: ");
+		int age = scan.nextInt();
+		System.out.print("몸무게: ");
+		//여기는 몸무게:를 print 하는 명령어 입니다.
+		double weight = scan.nextDouble();
+		System.out.println("---------------------");
+		
+		System.out.println("이름: " + name + 
+				"\n" + "주소: " + address1 + " " + address2 + "길" + " " + address3 + 
+				"\n" + "나이: " + age + "살" + 
+				"\n" + "몸무게: " + weight + "kg");
+			
+		scan.close();
+		
+	}
+
+}

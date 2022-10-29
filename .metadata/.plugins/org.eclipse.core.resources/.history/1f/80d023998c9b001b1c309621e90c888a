@@ -1,0 +1,20 @@
+package Exe06_2;
+
+public class marummo {
+
+	public static void main(String[] args) {
+		int a;
+		for(a=1; a<=5; a++) {
+			for(int b=1; b<=5; b++) {
+				if(b%2==1) {
+					System.out.print("*");
+				}
+					else {
+						System.out.print(" ");
+					}
+				
+				
+			}
+		}
+	}
+}

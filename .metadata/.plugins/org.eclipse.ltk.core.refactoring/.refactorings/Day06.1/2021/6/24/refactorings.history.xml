@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Exe22&apos; to &apos;exe22&apos;&#x0D;&#x0A;- Original project: &apos;Day06.1&apos;&#x0D;&#x0A;- Original element: &apos;Day06.1/src/Exe22&apos;&#x0D;&#x0A;- Renamed element: &apos;Day06.1/src/exe22&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Exe22&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Exe22" name="exe22" qualified="false" references="true" stamp="1623406174567" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+package Exe06_2;
+
+public class subal {
+
+	public static void main(String[] args) {
+		int i,j,k;
+		char a =' ';
+
+		for(i=1i<10i++) {
+		for(j=9-i;j>0j--){
+		System.out.print(" ");
+		}
+		for(k=i;k>0k--){
+		System.out.print("* ");
+		}
+		System.out.println();
+}

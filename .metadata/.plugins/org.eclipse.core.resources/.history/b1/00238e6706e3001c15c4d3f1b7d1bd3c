@@ -1,0 +1,43 @@
+package Ex01;
+
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
+import java.io.BufferedReader;
+import java.io.IOException;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+public class t01 {
+    public static void main(String[] args) throws IOException {
+        String key = "16c6ed183ccf402dbff0d174ff8a04d7";
+
+        String result = "";
+
+        try {
+
+            URL url = new URL("https://open.neis.go.kr/hub/mealServiceDietInfo?key="
+                    + key + "&Type=jsonp&Index=1&pSize=100&ATPT_OFCDC_SC_CODE=B10&SD_SCHUL_CODE=7010126&MLSV_FROM_YMD=20220602&MLSV_TO_YMD=20220602");
+
+            BufferedReader bf;
+
+            bf = new BufferedReader(new InputStreamReader(url.openStream(), "UTF-8"));
+
+            result = bf.readLine();
+
+            JSONParser jsonParser = new JSONParser();
+            Object obj = jsonParser.parse(result);
+            JSONObject jsonObj = new JSONObject(obj.toString());
+
+            JSONArray jsonArray = jsonObj.getJSONArray("mealServiceInfo");
+            
+            //System.out.println(mealServiceDietInfo);
+
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+}

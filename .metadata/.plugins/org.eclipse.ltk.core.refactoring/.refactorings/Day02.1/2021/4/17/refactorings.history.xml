@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Exe06_2.subal&apos; to &apos;marummo&apos;&#x0D;&#x0A;- Original project: &apos;Day002.5&apos;&#x0D;&#x0A;- Original element: &apos;Exe06_2.subal&apos;&#x0D;&#x0A;- Renamed element: &apos;Exe06_2.marummo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;subal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Exe06_2{subal.java[subal" matchStrategy="1" name="marummo" qualified="false" references="true" similarDeclarations="false" stamp="1618811183340" textual="false" version="1.0"/>
+</session>

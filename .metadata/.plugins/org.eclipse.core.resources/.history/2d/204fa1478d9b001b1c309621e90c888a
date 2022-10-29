@@ -1,0 +1,16 @@
+package Exe06_2;
+
+public class subal {
+
+	public static void main(String[] args) {
+		int a =1, b=2, c=3;
+		for(a=1; a<=5; a++) {
+			for(b=2; b<=0; b--) {
+				
+			}
+		}
+		
+
+	}
+
+}

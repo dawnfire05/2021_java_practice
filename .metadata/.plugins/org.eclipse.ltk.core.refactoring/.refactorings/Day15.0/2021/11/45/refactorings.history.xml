@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;exe18.IntQueue&apos; to &apos;Deck&apos;&#x0D;&#x0A;- Original project: &apos;Day15.0&apos;&#x0D;&#x0A;- Original element: &apos;exe18.IntQueue&apos;&#x0D;&#x0A;- Renamed element: &apos;exe18.Deck&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IntQueue&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;exe18{IntQueue.java[IntQueue" matchStrategy="1" name="Deck" qualified="false" references="true" similarDeclarations="false" stamp="1636165355756" textual="false" version="1.0"/>
+</session>

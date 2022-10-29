@@ -1,0 +1,18 @@
+package Exe05;
+
+public class numtest2 {
+
+	public static void main(String[] args) {
+		int num1 = 313;
+		long num2 = 15L;
+		
+		long result1 = num1 * num2;
+		System.out.println("== 자동 형변환 ==");
+		System.out.printf("result1 : %d \n", result1);
+		
+		long result2 = num1 / num2;
+		
+
+	}
+
+}

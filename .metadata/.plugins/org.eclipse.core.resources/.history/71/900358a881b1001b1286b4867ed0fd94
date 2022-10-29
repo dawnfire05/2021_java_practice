@@ -1,0 +1,19 @@
+package Exe17;
+
+import java.util.Scanner;
+
+public class oxquiz {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String answers[] = new String[scanner.nextInt()];
+		for (int l = 0; l <8; l++) {
+			for (int a = 0; a < answers.length; a++) {
+				answers[a] = scanner.next();
+			System.out.println(answers[1]);
+			}
+		}
+		scanner.closd();
+	}
+}
